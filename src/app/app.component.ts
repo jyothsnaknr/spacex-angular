@@ -12,15 +12,12 @@ import {Location} from '@angular/common';
 
 export class AppComponent {
   title = 'spacex';
-  landingData;
-  launchYear;
-  launchSuccess;
-  landSuccess;
+  landingData; 
   params = { 
-    "launch_year" : "",
-    "land_success" : "",
-    "launch_success" : ""
-  };
+    "launch_year" : 0,
+    "land_success" : 0,
+    "launch_success" : 0
+  }; 
 
   constructor(private appService:AppService,private location: Location)
   {
