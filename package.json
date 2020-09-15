@@ -50,7 +50,7 @@
     "typescript": "~4.0.2"
   },
   "engines": {
-    "node": "6.14.6",
-    "npm": "12.18.3"
+    "node": "v",
+    "npm": "v"
   }
 }
