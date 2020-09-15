@@ -15,8 +15,8 @@ export class AppComponent {
   landingData; 
   params = { 
     "launch_year" : 0,
-    "land_success" : 0,
-    "launch_success" : 0
+    "land_success" : '',
+    "launch_success" : ''
   }; 
 
   constructor(private appService:AppService,private location: Location)
